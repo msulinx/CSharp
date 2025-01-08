@@ -31,7 +31,6 @@ public class ContactService(IContactRepository contactRepository) : IContactServ
             
             ContactsUpdated?.Invoke(this, EventArgs.Empty); // Triggar uppdatering
             
-
             return true;
         }
         catch (Exception ex)
@@ -153,7 +152,7 @@ public class ContactService(IContactRepository contactRepository) : IContactServ
         return true;
     }
     
-    public void ContactListToTest (List<Contact> contacts)
+    public void ContactListToTest (List<Contact> contacts) // Används för enhetstester
     {
         _contactList = contacts;
     }

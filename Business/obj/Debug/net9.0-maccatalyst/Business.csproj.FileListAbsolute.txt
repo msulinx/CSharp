@@ -20,3 +20,4 @@
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-maccatalyst/refint/Business.dll
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-maccatalyst/Business.pdb
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-maccatalyst/ref/Business.dll
+/Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-maccatalyst/Business.sourcelink.json

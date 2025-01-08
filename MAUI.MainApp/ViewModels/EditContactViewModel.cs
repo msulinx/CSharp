@@ -30,9 +30,8 @@ public partial class EditContactViewModel : ObservableObject, IQueryAttributable
 
     public void ApplyQueryAttributes(IDictionary<string, object> query)
     {
-        if (query.ContainsKey("Contact"))
-        {
-            Contact = (Contact)query["Contact"];
-        }
+        
+        Contact = (query["Contact"] as Contact)!;
+
     }
 }

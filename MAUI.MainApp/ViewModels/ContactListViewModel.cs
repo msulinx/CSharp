@@ -38,7 +38,7 @@ public partial class ContactListViewModel : ObservableObject
     [RelayCommand]
     public async Task NavigateToEdit(Contact contact)
     {
-        var parameters = new Dictionary<string, object>
+        var parameters = new ShellNavigationQueryParameters()
         {
             { "Contact", contact }
         };
