@@ -1,0 +1,63 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:MAUI.MainApp.ViewModels"
+             xmlns:models="clr-namespace:Business.Models;assembly=Business"
+             x:Class="MAUI.MainApp.Pages.ContactListPage"
+             x:DataType="viewmodels:ContactListViewModel"
+             Title="Contact List">
+
+    <Grid RowDefinitions="auto, *" Margin="20">
+        <ScrollView>
+            <CollectionView ItemsSource="{Binding ContactList}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Contact">
+                        <Border BackgroundColor="Transparent" Padding="10" Margin="0, 10, 0, 10">
+                            <VerticalStackLayout Spacing="20">
+                                <Label FontAttributes="Bold" Text="ID:"/>
+                                <Label Text="{Binding Id}"/>
+
+                                <Label Text="First Name : "/>
+                                <Label Text="{Binding FirstName}"/>
+
+                                <Label Text="Last Name :"/>
+                                <Label Text="{Binding LastName}"/>
+
+                                <Label Text="Email :"/>
+                                <Label Text="{Binding Email}"/>
+
+                                <Label Text="Phone :"/>
+                                <Label Text="{Binding PhoneNumber}"/>
+
+                                <Label Text="Address :"/>
+                                <Label Text="{Binding Address}"/>
+
+                                <Label Text="ZipCode :"/>
+                                <Label Text="{Binding ZipCode}"/>
+
+                                <Label Text="City :"/>
+                                <Label Text="{Binding City}"/>
+                                
+                                <HorizontalStackLayout Spacing="10">
+                                    
+                                    <Button Text="EDIT" CommandParameter="{Binding .}"
+                                            Command="{Binding Path=NavigateToEditCommand, 
+                                        Source={RelativeSource AncestorType={x:Type viewmodels:ContactListViewModel}}}"
+                                            HeightRequest="30"
+                                            WidthRequest="100"/>
+                                
+                                    <Button Text="DELETE" CommandParameter="{Binding .}"
+                                            Command="{Binding Path=DeleteContactCommand, 
+                                        Source={RelativeSource AncestorType={x:Type viewmodels:ContactListViewModel}}}"
+                                            HeightRequest="30"
+                                            WidthRequest="100"/>
+                                    
+                                </HorizontalStackLayout>
+                                
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </Grid>
+</ContentPage>

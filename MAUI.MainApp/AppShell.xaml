@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MAUI.MainApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:MAUI.MainApp.Pages"
+    Shell.FlyoutBehavior="Flyout"
+    Title="MobileApp">
+    
+    <ShellContent>
+        <ContentPage>
+            <Grid RowDefinitions="auto, *" Margin="20" RowSpacing="10">
+                <Label Grid.Row="0" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       FontSize="18" 
+                       Text="Welcome to your contactlist!"/>
+                <Label Grid.Row="1" 
+                       HorizontalOptions="Center"
+                       FontSize="18"
+                       Text="Use the navigation to the left"/>
+            </Grid>
+        </ContentPage>
+    </ShellContent>
+    
+    <FlyoutItem Title="Contact List" Route="ContactListPage">
+        <ShellContent ContentTemplate="{ DataTemplate pages:ContactListPage }"/>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Add a new contact" Route="AddContactPage">
+        <ShellContent ContentTemplate="{ DataTemplate pages:AddContactPage }"/>
+    </FlyoutItem>
+    
+    <ShellContent Title="Edit Contact"
+                  Route="EditContactPage"
+                  ContentTemplate="{DataTemplate pages:EditContactPage}" />
+    
+</Shell>

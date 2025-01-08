@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MAUI.MainApp</name>
+    </assembly>
+    <members>
+        <member name="T:MAUI.MainApp.ViewModels.AddContactViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MAUI.MainApp.ViewModels.AddContactViewModel.ContactForm">
+            <inheritdoc cref="F:MAUI.MainApp.ViewModels.AddContactViewModel._contactForm"/>
+        </member>
+        <member name="F:MAUI.MainApp.ViewModels.AddContactViewModel.createContactCommand">
+            <summary>The backing field for <see cref="P:MAUI.MainApp.ViewModels.AddContactViewModel.CreateContactCommand"/>.</summary>
+        </member>
+        <member name="P:MAUI.MainApp.ViewModels.AddContactViewModel.CreateContactCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUI.MainApp.ViewModels.AddContactViewModel.CreateContact"/>.</summary>
+        </member>
+        <member name="T:MAUI.MainApp.ViewModels.ContactListViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MAUI.MainApp.ViewModels.ContactListViewModel.ContactList">
+            <inheritdoc cref="F:MAUI.MainApp.ViewModels.ContactListViewModel._contactList"/>
+        </member>
+        <member name="F:MAUI.MainApp.ViewModels.ContactListViewModel.loadContactsCommand">
+            <summary>The backing field for <see cref="P:MAUI.MainApp.ViewModels.ContactListViewModel.LoadContactsCommand"/>.</summary>
+        </member>
+        <member name="P:MAUI.MainApp.ViewModels.ContactListViewModel.LoadContactsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUI.MainApp.ViewModels.ContactListViewModel.LoadContacts"/>.</summary>
+        </member>
+        <member name="F:MAUI.MainApp.ViewModels.ContactListViewModel.navigateToEditCommand">
+            <summary>The backing field for <see cref="P:MAUI.MainApp.ViewModels.ContactListViewModel.NavigateToEditCommand"/>.</summary>
+        </member>
+        <member name="P:MAUI.MainApp.ViewModels.ContactListViewModel.NavigateToEditCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MAUI.MainApp.ViewModels.ContactListViewModel.NavigateToEdit(Business.Models.Contact)"/>.</summary>
+        </member>
+        <member name="F:MAUI.MainApp.ViewModels.ContactListViewModel.deleteContactCommand">
+            <summary>The backing field for <see cref="P:MAUI.MainApp.ViewModels.ContactListViewModel.DeleteContactCommand"/>.</summary>
+        </member>
+        <member name="P:MAUI.MainApp.ViewModels.ContactListViewModel.DeleteContactCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MAUI.MainApp.ViewModels.ContactListViewModel.DeleteContact(Business.Models.Contact)"/>.</summary>
+        </member>
+        <member name="T:MAUI.MainApp.ViewModels.EditContactViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MAUI.MainApp.ViewModels.EditContactViewModel.Contact">
+            <inheritdoc cref="F:MAUI.MainApp.ViewModels.EditContactViewModel._contact"/>
+        </member>
+        <member name="F:MAUI.MainApp.ViewModels.EditContactViewModel.editContactCommand">
+            <summary>The backing field for <see cref="P:MAUI.MainApp.ViewModels.EditContactViewModel.EditContactCommand"/>.</summary>
+        </member>
+        <member name="P:MAUI.MainApp.ViewModels.EditContactViewModel.EditContactCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUI.MainApp.ViewModels.EditContactViewModel.EditContact"/>.</summary>
+        </member>
+        <member name="T:MAUI.MainApp.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ContactForm">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ContactForm" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ContactList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ContactList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Contact">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Contact" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ContactForm">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ContactForm" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ContactList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ContactList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Contact">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Contact" generated properties.</summary>
+        </member>
+    </members>
+</doc>
