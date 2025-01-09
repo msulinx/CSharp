@@ -112,3 +112,4 @@
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/BusinessTests/obj/Debug/net9.0/BusinessTests.pdb
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/BusinessTests/obj/Debug/net9.0/BusinessTests.genruntimeconfig.cache
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/BusinessTests/obj/Debug/net9.0/ref/BusinessTests.dll
+/Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/BusinessTests/obj/Debug/net9.0/BusinessTests.sourcelink.json

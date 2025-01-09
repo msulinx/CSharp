@@ -10,3 +10,4 @@
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0/refint/Business.dll
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0/Business.pdb
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0/ref/Business.dll
+/Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0/Business.sourcelink.json

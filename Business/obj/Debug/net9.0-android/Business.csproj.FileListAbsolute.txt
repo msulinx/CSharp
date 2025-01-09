@@ -33,3 +33,4 @@
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-android/stamp/_CleanIntermediateIfNeeded.stamp
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-android/stamp/_ConvertResourcesCases.stamp
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-android/Business.sourcelink.json

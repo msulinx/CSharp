@@ -20,3 +20,4 @@
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-ios/refint/Business.dll
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-ios/Business.pdb
 /Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-ios/ref/Business.dll
+/Users/mykasulin/Desktop/WEBBUTVECKLING/C#/Inlämningsuppgift/CSharpAssignment/Business/obj/Debug/net9.0-ios/Business.sourcelink.json

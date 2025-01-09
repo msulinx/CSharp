@@ -30,6 +30,9 @@ public class FileServiceTests
         {
             if (File.Exists(fileName))
                 File.Delete(fileName);
+            
+            if(Directory.Exists(directoryPath))
+                Directory.Delete(directoryPath, true);
         }
     }
 
@@ -58,6 +61,9 @@ public class FileServiceTests
         {
             if (File.Exists(fileName))
                 File.Delete(fileName);
+            
+            if (Directory.Exists(directoryPath))
+                Directory.Delete(directoryPath, true);
         }
     }
     
